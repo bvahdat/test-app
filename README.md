@@ -21,7 +21,7 @@ java -javaagent:agent/applicationinsights-agent-3.2.11.jar -jar target/test-app-
 And then using the Agent version `3.3.1`:
 
 ```
-java -javaagent:agent/applicationinsights-agent-3.2.11.jar -jar target/test-app-1.0.0-SNAPSHOT.jar
+java -javaagent:agent/applicationinsights-agent-3.3.1.jar -jar target/test-app-1.0.0-SNAPSHOT.jar
 ```
 
 ![](agent-3.3.1.png)

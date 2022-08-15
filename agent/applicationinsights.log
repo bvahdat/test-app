@@ -1,2 +1,0 @@
-2022-08-15 16:42:50.048+02:00 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent 3.3.1 started successfully (PID 3996)
-2022-08-15 16:42:50.053+02:00 INFO  c.m.applicationinsights.agent - Java version: 18.0.1, vendor: Eclipse Adoptium, home: /Library/Java/JavaVirtualMachines/temurin-18.jdk/Contents/Home

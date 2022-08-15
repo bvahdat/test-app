@@ -1,0 +1,26 @@
+{
+  "role": {
+    "name": "test-app"
+  },
+  "preview": {
+    "sampling": {
+      "overrides": [
+        {
+          "attributes": [
+            {
+              "key": "http.url",
+              "value": "https://login.microsoftonline.com/.*",
+              "matchType": "regexp"
+            },
+            {
+              "key": "http.url",
+              "value": "https?://[^/]+/actuator/.*",
+              "matchType": "regexp"
+            }
+          ],
+          "percentage": 0
+        }
+      ]
+    }
+  }
+}

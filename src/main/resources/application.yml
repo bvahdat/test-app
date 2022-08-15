@@ -1,0 +1,13 @@
+azure-servicebus:
+  source-name: see https://camel.apache.org/components/3.18.x/azure-servicebus-component.html#_endpoint_path_option_topicOrQueueName
+camel:
+  component:
+    azure-servicebus:
+      fully-qualified-namespace: see https://camel.apache.org/components/3.18.x/azure-servicebus-component.html#_sb_option_camel_component_azure-servicebus_fully-qualified-namespace
+      service-bus-type: topic
+      subscription-name: see https://camel.apache.org/components/3.18.x/azure-servicebus-component.html#_sb_option_camel_component_azure-servicebus_subscription-name
+
+# suppress the application-insights extra trace log noise for each processed message
+logging.level:
+  com.azure.core.amqp.implementation: ERROR
+  com.azure.messaging.servicebus.implementation: ERROR

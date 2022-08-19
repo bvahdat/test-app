@@ -10,6 +10,15 @@ mvn package
 
 # Run
 
+Provide your ApplicationInsights connection string as well as the required Azure-AD details:
+
+```
+export APPLICATIONINSIGHTS_CONNECTION_STRING=...
+export AZURE_CLIENT_ID=...
+export AZURE_CLIENT_SECRET=...
+export AZURE_TENANT_ID=...
+```
+
 Now run using the Agent version `3.2.11`:
 
 ```
